@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("../images/wall.png");
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100vh;
+    background-color: #000000;
+    color: #fff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #1aeaa5;
+    border: 1px solid black;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    the lines below
+.second {
+    margin-top: 10px;
+}
+    given the same result as show below
+*/
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 1rem;
+}
